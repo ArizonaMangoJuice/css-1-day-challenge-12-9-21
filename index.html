@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS CHALLENGE DEC 7</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <header class="header">
+        <section class="header-top-nav">
+            <section class="header-top-left">
+                <section class="header-logo">
+                    <a href="#"> <i class="fas fa-layer-group"></i> <span class="header-logo-name">Entries</span></a>
+                </section>
+                <section class="header-project-dropdown">
+                    <span>charity: water</span>
+                </section>
+                <nav class="top-header-nav">
+                    <a class="top-header-nav-link" href="#">
+                        <p class="top-header-nav-button">Projects</p>
+                    </a>
+                    <a class="top-header-nav-link " href="#">
+                        <p class="top-header-nav-button highlight">Databases</p>
+                    </a>
+                    <a class="top-header-nav-link" href="#">
+                        <p class="top-header-nav-button">Admin</p>
+                    </a>
+                </nav>
+            </section>
+            <section class="header-top-right">
+                <section class="header-top-progress">
+                    <p class="header-top-progress-text">Setting up database 2021_digital_outreach</p>
+                    <p class="header-top-progress-percent">44%</p>
+                </section>
+                <section class="header-top-user">
+                    <p class="header-top-user-text">Abby Gartner</p>
+                </section>
+            </section>
+        </section>
+    </header>
+    <section class="database-nav">
+        <section class="database-nav-left">
+            <button class="database-back"><i class="fas fa-arrow-left database-blue"></i></button>
+            <section class="database-path">
+                <p database-path-p>Main Database / test_data</p>
+            </section>
+        </section>
+        <section class="database-nav-right">
+            <section class="chat-user-container database-user">
+                <img class="chat-user"
+                    src="https://firebasestorage.googleapis.com/v0/b/isael-blogs.appspot.com/o/images%2Fme.jpg?alt=media"
+                    alt="">
+            </section>
+            <section class="chat-user-container database-user">
+                <img class="chat-user"
+                    src="https://firebasestorage.googleapis.com/v0/b/isael-blogs.appspot.com/o/images%2Farchie-kun.jpg?alt=media"
+                    alt="">
+            </section>
+            <section class="chat-user-container database-user">
+                <img class="chat-user"
+                    src="https://firebasestorage.googleapis.com/v0/b/isael-blogs.appspot.com/o/images%2Fme.jpg?alt=media"
+                    alt="">
+            </section>
+        </section>
+    </section>
+    <section class="database-tabs">
+        <section class="database-tabs-left">
+            <nav class="top-header-nav">
+                <a class="top-header-nav-link" href="#">
+                    <p class="top-header-nav-button highlight">Activity</p>
+                </a>
+                <a class="top-header-nav-link " href="#">
+                    <p class="top-header-nav-button ">Tables</p>
+                </a>
+                <a class="top-header-nav-link" href="#">
+                    <p class="top-header-nav-button">Settings</p>
+                </a>
+            </nav>
+        </section>
+        <section class="database-tabs-right">
+            <button class="database-tab-complete">
+                Mark Project as Complete <i class="fas fa-check-circle database-check"></i>
+            </button>
+        </section>
+    </section>
+    <section class="chat-outer-container">
+        <section class="chat-settings">
+            <section class="chat-box">
+                <p class="chat-box-p">Filter Activity</p>
+                <p class="chat-box-p">Type</p>
+                <form class="chat-box-form" action="#">
+                    <input checked type="checkbox" name="Flags" id="Flags" value="Flags">
+                    <label class="chat-box-label chat-box-checked" for="Flags"> Flags</label><br>
+                    <input checked type="checkbox" name="Mappings" id="Mappings" value="Mappings">
+                    <label class="chat-box-label chat-box-checked" for="Mappings"> Mappings</label><br>
+                    <input type="checkbox" name="Queries" id="Queries" value="Queries">
+                    <label class="chat-box-label " for="Queries"> Queries</label><br>
+                    <input checked type="checkbox" name="Rules" id="Rules" value="Rules">
+                    <label class="chat-box-label chat-box-checked" for="Rules"> Rules</label><br>
+                    <input checked type="checkbox" name="UploadedFiles" id="UploadedFiles" value="UploadedFiles">
+                    <label class="chat-box-label chat-box-checked" for="UploadedFiles"> Uploaded Files</label><br>
+                    <input checked type="checkbox" name="Comments" id="Comments" value="Comments">
+                    <label class="chat-box-label chat-box-checked" for="Comments"> Comments</label><br>
+                </form>
+                <p class="chat-box-p">Contributor</p>
+                <form class="chat-box-form" action="#">
+                    <!-- <p class="form-text">TYPE</p> -->
+                    <input checked type="checkbox" name="IsaelLizama" id="IsaelLizama" value="IsaelLizama">
+                    <label class="chat-box-label chat-box-checked" for="IsaelLizama"> Isael Lizama</label><br>
+                    <input checked type="checkbox" name="ArchieKun" id="ArchieKun" value="ArchieKun">
+                    <label class="chat-box-label chat-box-checked" for="ArchieKun"> Archie Kun</label><br>
+                </form>
+                <p class="chat-box-p">Table</p>
+                <form class="chat-box-form" action="#">
+                    <!-- <p class="form-text">TYPE</p> -->
+                    <input checked type="checkbox" name="Tablenumber1" id="Tablenumber1" value="Tablenumber1">
+                    <label class="chat-box-label chat-box-checked" for="Tablenumber1"> Tablenumber1</label><br>
+                    <input type="checkbox" name="secondtable" id="secondtable" value="secondtable">
+                    <label class="chat-box-label " for="secondtable"> secondtable</label><br>
+                </form>
+            </section>
+        </section>
+        <section class="chat-container">
+            <section class="chat-day">
+                <section class="chat-day-top">
+                    <p class="chat-text-day">Today</p>
+                    <p class="chat-full-day">Tuesday, Jul 11, 2021</p>
+                </section>
+                <section class="chat-inner-container">
+                    <section class="chat-bubble">
+                        <section class="user-and-line">
+                            <section class="chat-user-container">
+                                <img src="https://firebasestorage.googleapis.com/v0/b/isael-blogs.appspot.com/o/images%2Fme.jpg?alt=media"
+                                    class="chat-user" alt="">
+                            </section>
+                        </section>
+                        <section class="chat-content">
+                            <section class="chat-title">
+                                <section>
+                                    <i class="far fa-flag"></i>
+                                    <span>Isael flagged <a class="chat-title-link" href="#">customer_id_updated</a><span
+                                            class="chat-title-highlight">Secondtable</span></span>
+                                </section>
+                                <span class="chat-title-time">9:00am</span>
+                            </section>
+                            <section class="chat-text">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus deserunt ut suscipit
+                                odit
+                                molestiae? Quod error architecto cum modi dignissimos nihil, facilis corrupti, voluptate
+                                cupiditate pariatur repellat tenetur dolorum expedita.
+                            </section>
+                        </section>
+                    </section>
+                    <section class="chat-bubble">
+                        <section class="user-and-line">
+                            <section class="chat-user-container">
+                                <img src="https://firebasestorage.googleapis.com/v0/b/isael-blogs.appspot.com/o/images%2Farchie-kun.jpg?alt=media"
+                                    class="chat-user" alt="">
+                            </section>
+                        </section>
+                        <section class="chat-content">
+                            <section class="chat-title">
+                                <section>
+                                    <i class="fas fa-tags"></i>
+                                    <span>Isael mapped <a class="chat-title-link" href="#">customer_id_updated</a><span
+                                            class="chat-title-highlight">Secondtable</span></span>
+                                </section>
+                                <span class="chat-title-time">8:45am</span>
+                            </section>
+                            <section class="chat-text">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus deserunt ut suscipit
+                                odit
+                                molestiae?
+                            </section>
+                        </section>
+                    </section>
+                    <section class="chat-bubble-last">
+                        <section class="user-and-line">
+                            <section class="chat-user-container">
+                                <img src="https://firebasestorage.googleapis.com/v0/b/isael-blogs.appspot.com/o/images%2Fme.jpg?alt=media"
+                                    class="chat-user" alt="">
+                            </section>
+                        </section>
+                        <section class="chat-content">
+                            <section class="chat-title">
+                                <section>
+                                    <i class="far fa-flag"></i>
+                                    <span>Isael flagged <a class="chat-title-link" href="#">customer_id_updated</a><span
+                                            class="chat-title-highlight">Secondtable</span></span>
+                                </section>
+                                <span class="chat-title-time">9:00am</span>
+                            </section>
+                        </section>
+                    </section>
+                </section>
+            </section>
+            <section class="chat-day">
+                <section class="chat-day-top">
+                    <p class="chat-text-day">Yesterday</p>
+                    <p class="chat-full-day">Tuesday, Jul 10, 2021</p>
+                </section>
+                <section class="chat-inner-container">
+                    <section class="chat-bubble">
+                        <section class="user-and-line">
+                            <section class="chat-user-container">
+                                <img src="https://firebasestorage.googleapis.com/v0/b/isael-blogs.appspot.com/o/images%2Fme.jpg?alt=media"
+                                    class="chat-user" alt="">
+                            </section>
+                        </section>
+                        <section class="chat-content">
+                            <section class="chat-title">
+                                <section>
+                                    <i class="far fa-flag"></i>
+                                    <span>Isael flagged <a class="chat-title-link" href="#">customer_id_updated</a><span
+                                            class="chat-title-highlight">Secondtable</span></span>
+                                </section>
+                                <span class="chat-title-time">9:00am</span>
+                            </section>
+                            <section class="chat-text">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus deserunt ut suscipit
+                                odit
+                                molestiae? Quod error architecto cum modi dignissimos nihil, facilis corrupti, voluptate
+                                cupiditate pariatur repellat tenetur dolorum expedita.
+                            </section>
+                        </section>
+                    </section>
+                    <section class="chat-bubble">
+                        <section class="user-and-line">
+                            <section class="chat-user-container">
+                                <img src="https://firebasestorage.googleapis.com/v0/b/isael-blogs.appspot.com/o/images%2Farchie-kun.jpg?alt=media"
+                                    class="chat-user" alt="">
+                            </section>
+                        </section>
+                        <section class="chat-content">
+                            <section class="chat-title">
+                                <section>
+                                    <i class="fas fa-tags"></i>
+                                    <span>Isael mapped <a class="chat-title-link" href="#">customer_id_updated</a><span
+                                            class="chat-title-highlight">Secondtable</span></span>
+                                </section>
+                                <span class="chat-title-time">8:45am</span>
+                            </section>
+                            <section class="chat-text">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus deserunt ut suscipit
+                                odit
+                                molestiae?
+                            </section>
+                        </section>
+                    </section>
+                    <section class="chat-bubble-last">
+                        <section class="user-and-line">
+                            <section class="chat-user-container">
+                                <img src="https://firebasestorage.googleapis.com/v0/b/isael-blogs.appspot.com/o/images%2Fme.jpg?alt=media"
+                                    class="chat-user" alt="">
+                            </section>
+                        </section>
+                        <section class="chat-content">
+                            <section class="chat-title">
+                                <section>
+                                    <i class="far fa-flag"></i>
+                                    <span>Isael flagged <a class="chat-title-link" href="#">customer_id_updated</a><span
+                                            class="chat-title-highlight">Secondtable</span></span>
+                                </section>
+                                <span class="chat-title-time">9:00am</span>
+                            </section>
+                        </section>
+                    </section>
+                </section>
+            </section>
+        </section>
+    </section>
+
+
+</body>
+
+</html>
